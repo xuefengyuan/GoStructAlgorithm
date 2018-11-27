@@ -1,5 +1,8 @@
 package main
 
+/*
+  冒泡排序
+*/
 func BubbleSort(array []int) []int {
     for i := 0; i < len(array)-1; i++ {
         for j := 0; j < len(array)-1-i; j++ {

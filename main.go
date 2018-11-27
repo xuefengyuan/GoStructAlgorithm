@@ -17,13 +17,13 @@ func main()  {
     //    result, _ := rand.Int(rand.Reader, big.NewInt(100))
     //    fmt.Println(result)
     //}
+
+
     array := GenerateRandomNumber(0, 100, 20)
-    for _,data := range array {
-       fmt.Println(data)
-    }
 
     fmt.Println("排序前：", array)
-    array = BubbleSort(array)
+    //array = BubbleSort(array)
+    array = SelectSort(array)
     fmt.Println("排序后：", array)
 }
 
