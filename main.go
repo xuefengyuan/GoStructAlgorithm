@@ -22,8 +22,13 @@ func main()  {
     array := GenerateRandomNumber(0, 100, 20)
 
     fmt.Println("排序前：", array)
+    start := time.Now().Unix()
+
     //array = BubbleSort(array)
-    array = SelectSort(array)
+    //array = SelectSort(array)
+    array = InsertSort(array)
+
+    fmt.Printf("time = %d\n",time.Now().Unix()-start)
     fmt.Println("排序后：", array)
 }
 
