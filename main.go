@@ -26,7 +26,8 @@ func main()  {
 
     //array = BubbleSort(array)
     //array = SelectSort(array)
-    array = InsertSort(array)
+    //array = InsertSort(array)
+    array = QuickSort(array,0,len(array)-1)
 
     fmt.Printf("time = %d\n",time.Now().Unix()-start)
     fmt.Println("排序后：", array)
