@@ -1,7 +1,7 @@
 # GoStructAlgorithm
-Go实现的数据结构与算法示例，持续更新中
+Go实现的数据结构与算法示例，该项目作废，暂时不删除，后续进行整合，具体的可以看
 
-
+[GoStruct](https://github.com/xuefengyuan/GoStruct)
 
 #### 1、添加了冒泡排序
 
